@@ -1,0 +1,99 @@
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    padding: 16px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* Header top */
+
+.header {
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+    align-content: space-between;
+}
+
+.header > div {
+    display: flex; 
+    flex-basis: 50%;  
+    flex-direction: column;
+    padding-bottom: 75px;
+}
+
+.title{
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 8px;
+    align-self: flex-end;
+}
+
+.links ul a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+/* Header Hero */
+
+.hero-left {
+    gap: 8px;
+}
+
+.hero-left .main {
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.hero-left .sub {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    border: none;
+    color: #e5e7eb;
+    border-radius: 5px;
+    font-weight: 600;
+    align-self: flex-start;
+    padding: 5px 30px;
+}
+
+.hero-right img {
+    width: auto;
+    height: 266px;
+}
+
+
+/* Content */
+
+.content {
+    background-color: aqua;
+}
+
+/* Footer */
+.footer {
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
